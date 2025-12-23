@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ENGORA – Talentplattform för framtidens ingenjörer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #222;
+    }
+    header {
+      background: #0f172a;
+      color: #fff;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto 30px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #2563eb;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 25px;
+      background: #fafafa;
+    }
+    footer {
+      background: #0f172a;
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <header>
+    <h1>ENGORA</h1>
+    <p>Vi hjälper ingenjörsstudenter och juniora ingenjörer att ta steget in i arbetslivet – och företag att hitta framtidens kompetens.</p>
+    <a href="#kontakt" class="btn">Kontakta oss</a>
+  </header>
+
+  <!-- PROBLEMET -->
+  <section>
+    <h2>Problemet på marknaden</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Företag</h3>
+        <p>Seniora ingenjörer är dyra och svåra att hitta. Juniorer upplevs ofta som osäkra.</p>
+      </div>
+      <div class="card">
+        <h3>Studenter</h3>
+        <p>Ingenjörsstudenter hittar inte rätt praktik eller exjobb och saknar kontakter i branschen.</p>
+      </div>
+      <div class="card">
+        <h3>Glappet</h3>
+        <p>Det finns ett tydligt glapp mellan studier och arbetsliv – och det är där ENGORA kommer in.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- VAD ÄR ENGORA -->
+  <section>
+    <h2>Vad är ENGORA?</h2>
+    <p>ENGORA är en brygga mellan universitet och näringsliv – en talangplattform för framtidens ingenjörer.</p>
+  </section>
+
+  <!-- ERBJUDANDE -->
+  <section>
+    <h2>Vad erbjuder vi?</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>För företag</h3>
+        <ul>
+          <li>Tillgång till ingenjörsstudenter och juniora ingenjörer</li>
+          <li>Praktik och exjobb som leder till anställning</li>
+          <li>Lägre risk och lägre kostnad</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>För studenter</h3>
+        <ul>
+          <li>Riktiga ingenjörsroller</li>
+          <li>Praktik och exjobb som leder till jobb</li>
+          <li>Företag som är öppna för junior kompetens</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- VARFÖR DU -->
+  <section>
+    <h2>Varför välja ENGORA?</h2>
+    <ul>
+      <li>Vi jobbar endast med ingenjörer</li>
+      <li>Vi fokuserar på studenter och juniorer</li>
+      <li>Vi förstår utbildningarna – kurs till kompetens</li>
+      <li>Vi filtrerar bort företag som egentligen vill ha seniorer</li>
+    </ul>
+  </section>
+
+  <!-- KONTAKT -->
+  <section id="kontakt">
+    <h2>Kontakt</h2>
+    <p>Vill du samarbeta med oss eller är du student som söker nästa steg?</p>
+    <p><strong>Email:</strong> contact@engora.se</p>
+  </section>
+
+  <footer>
+    <p>ENGORA – Dream. Build. Become.</p>
+  </footer>
+
+</body>
+</html>
